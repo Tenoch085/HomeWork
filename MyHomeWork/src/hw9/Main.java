@@ -8,7 +8,7 @@ public class Main {
         // Створення матриці 4x4
         int[][] matrix = new int[n][n];
 
-        // Заповнення матриці випадковими числами від 1 до 50 з використанням Math.random()
+        // Заповнення матриці випадковими числами від 1 до 50
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 matrix[i][j] = (int)(Math.random() * 50) + 1; // Генеруємо число від 1 до 50
@@ -38,8 +38,8 @@ public class Main {
             }
         }
 
-        // Добуток елементів у парних та непарних стовпцях (використовуємо long)
-        long productEvenCols = 1, productOddCols = 1;  // Використовуємо long замість int
+        // Добуток елементів у парних та непарних стовпцях
+        long productEvenCols = 1, productOddCols = 1;
         for (int j = 0; j < n; j++) {
             if (j % 2 == 0) {
                 for (int i = 0; i < n; i++) {
