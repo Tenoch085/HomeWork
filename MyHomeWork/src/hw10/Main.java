@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Main {
 
+
+
     // Обчислення квадрата числа
     public static void printSquare(int number) {
         int square = number * number;
