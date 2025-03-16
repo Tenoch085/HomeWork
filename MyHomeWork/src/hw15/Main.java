@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Advice advice = new AdviceImpl();
 
+
         // Тестуємо різні дні тижня
         advice.advise(Day.MONDAY);   // Виведе: "Будній день: працюйте продуктивно!"
         advice.advise(Day.FRIDAY);   // Виведе: "Happy Friday!"
