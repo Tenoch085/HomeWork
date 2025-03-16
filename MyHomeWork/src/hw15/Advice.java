@@ -1,6 +1,6 @@
 package hw15;
 
-// Створюємо інтерфейс Advice з методом advise
+// Створюємо інтерфейс Advice
 interface Advice {
     void advise(Day day);
 }
